@@ -1,0 +1,44 @@
+{
+  "name": "Conduit Student Competency Assessment",
+  "short_name": "Conduit Assess",
+  "description": "Connecting learning through AI-powered student competency assessment and progress tracking",
+  "version": "2.0.0",
+  "start_url": "/conduit-student-competency-assessment/",
+  "display": "standalone",
+  "background_color": "#f9fafb",
+  "theme_color": "#5D5CDE",
+  "orientation": "portrait-primary",
+  "scope": "/conduit-student-competency-assessment/",
+  "categories": ["education", "productivity", "utilities"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable any"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable any"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "New Assessment",
+      "short_name": "Assess",
+      "description": "Start a new student assessment",
+      "url": "/conduit-student-competency-assessment/#assess",
+      "icons": [
+        {
+          "src": "icons/icon-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ]
+}
